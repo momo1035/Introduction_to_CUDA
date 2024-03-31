@@ -8,6 +8,7 @@ This project showcases several CUDA programs designed to demonstrate a range of 
 - `MatrixMul/`: Includes CUDA programs for matrix multiplication with two versions: one for standard matrix multiplication and another that utilizes tiled matrix multiplication for enhanced performance.
 - `SumReduction/`: Contains a CUDA program focused on sum reduction, showcasing efficient parallel reduction techniques on the GPU.
 - `VectorAdd/`: Features a program for vector addition, illustrating simple parallel arithmetic operations on the GPU.
+- `SpMV/`: Features a program for sparse CSR matrix vector multiplication.
 
 ## Building and Running the Programs
 
