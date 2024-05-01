@@ -9,6 +9,7 @@ This project showcases several CUDA programs designed to demonstrate a range of 
 - `SumReduction/`: Contains a CUDA program focused on sum reduction, showcasing efficient parallel reduction techniques on the GPU.
 - `VectorAdd/`: Features a program for vector addition, illustrating simple parallel arithmetic operations on the GPU.
 - `SpMV/`: Features a program for sparse CSR matrix vector multiplication.
+- `MD/`: Features a program for simple molecular dynamics of a set of particles with a constant temperature interacting with each other through Lennard-Jones potential.
 
 ## Building and Running the Programs
 
@@ -27,6 +28,8 @@ These CUDA programs leverage the CUDA programming model to execute computations 
 - `MatrixMul` demonstrates matrix multiplication on the GPU, highlighting the efficient use of shared memory and thread synchronization.
 - `HelloWorld` provides a simple introduction to kernel execution on the GPU.
 - `SumReduction` and `VectorAdd` showcase parallel algorithms for reduction and vector addition, respectively, emphasizing efficient parallel data processing techniques on the GPU.
+- `MD`: This directory contains a program for an n-body simulation, a type of simulation that calculates the interaction between multiple particles in a system. The particles interact with each other through the Lennard-Jones potential. The program uses an optimized sum reduction kernel for efficient parallel processing on the GPU. To visualize the results of the simulation, you will need to use OVITO, an open-source visualization and analysis software.
+
 
 ## Note
 
